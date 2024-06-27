@@ -9,3 +9,12 @@ Rocket Launch Notifier is a Python application that scrapes a website to retriev
 - **Date Checking**: Determines if a launch is scheduled for today based on scraped date information.
   
 - **Discord Integration**: Sends formatted messages to a specified Discord webhook URL, including mission details and images.
+
+- ---
+
+## Setup
+
+### Prerequisites
+
+- Python 3.x installed on your system.
+- Required Python packages: `dotenv`, `beautifulsoup4`, `requests`.
