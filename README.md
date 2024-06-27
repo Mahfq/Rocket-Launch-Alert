@@ -18,3 +18,11 @@ Rocket Launch Notifier is a Python application that scrapes a website to retriev
 
 - Python 3.x installed on your system.
 - Required Python packages: `dotenv`, `beautifulsoup4`, `requests`.
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your/repository.git
+cd RocketLaunchNotifier
