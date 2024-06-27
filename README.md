@@ -26,3 +26,21 @@ Clone the repository:
 ```bash
 git clone https://github.com/your/repository.git
 cd RocketLaunchNotifier
+
+### Install dependencies:
+
+```bash
+pip install -r requirements.txt
+
+Create a .env file in the project directory and add your Discord webhook URL and the URL of the website you want to scrape:
+
+```bash
+DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/your_webhook_url
+URL_WEBSITE=https://example.com/launches
+
+### Usage
+Run the script to check for upcoming rocket launches and send notifications to Discord:
+
+```bash
+python scrapper.py (windows) or python3 scrapper.py (linux)
+
